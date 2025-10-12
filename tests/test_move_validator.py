@@ -84,14 +84,14 @@ class TestMoveValidator(unittest.TestCase):
     def test_valid_capture(self):
         """Test valid capture move."""
         # Move white pawn to position where it can capture
-        self.board.board[5][4] = 'P'  # White pawn at e3
-        self.board.board[4][5] = 'p'  # Black pawn at f4
+        self.board.board[2][4] = 'P'  # White pawn at row 2, col 4
+        self.board.board[3][5] = 'p'  # Black pawn at row 3, col 5
         
-        start = (5, 4)
-        end = (4, 5)
+        start = (2, 4)
+        end = (3, 5)
         
         is_valid, error = self.board.validate_move(start, end, 'white')
-        self.assertTrue(is_valid, "Valid capture should be accepted")
+        self.assertTrue(is_valid, f"Valid capture should be accepted, error: {error}")
     
     def test_rook_blocked_path(self):
         """Test rook cannot move through pieces."""
