@@ -9,12 +9,12 @@ sample_moves = """
 SAMPLE CHESS GAME MOVES
 ========================
 
-Opening moves (White):
+Opening moves (Black):
 - e2 e4    (Move pawn from e2 to e4)
 - d2 d4    (Move pawn from d2 to d4)
 - g1 f3    (Move knight from g1 to f3)
 
-Opening moves (Black):
+Opening moves (White):
 - e7 e5    (Move pawn from e7 to e5)
 - d7 d5    (Move pawn from d7 to d5)
 - b8 c6    (Move knight from b8 to c6)
