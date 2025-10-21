@@ -439,10 +439,7 @@ chess-game/
 │   │   ├── knight.py            # Knight logic
 │   │   ├── bishop.py            # Bishop logic
 │   │   ├── queen.py             # Queen logic
-│   │   └── king.py              # King logic
-│   ├── moves/
-│   │   ├── move_validator.py    # Move validation
-│   │   └── move_generator.py    # Move generation
+│   │   └── king.py              # King logic 
 │   ├── input/
 │   │   └── input_handler.py     # Input parsing
 │   └── utils/
